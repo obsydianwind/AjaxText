@@ -26,6 +26,6 @@ namespace ajax {
         $locationProvider.html5Mode(true);
     });
 
-    
+
 
 }
