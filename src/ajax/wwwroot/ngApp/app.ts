@@ -10,15 +10,10 @@ namespace ajax {
             .state('home', {
                 url: '/',
                 templateUrl: '/ngApp/views/home.html',
-                controller: ajax.Controllers.HomeController,
-                controllerAs: 'controller'
+                controller: ajax.Controllers.ProductsController,
+                controllerAs: 'c'
             })
-            .state('about', {
-                url: '/about',
-                templateUrl: '/ngApp/views/about.html',
-                controller: ajax.Controllers.AboutController,
-                controllerAs: 'controller'
-            })
+
             .state('notFound', {
                 url: '/notFound',
                 templateUrl: '/ngApp/views/notFound.html'
